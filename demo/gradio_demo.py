@@ -1231,7 +1231,7 @@ def main():
         ).launch(
             share=args.share,
             # server_port=args.port,
-            server_name="0.0.0.0" if args.share else "127.0.0.1",
+            server_name="0.0.0.0" if args.share else "0.0.0.0",
             show_error=True,
             show_api=False  # Hide API docs for cleaner interface
         )
